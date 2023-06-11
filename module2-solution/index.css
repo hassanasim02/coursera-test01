@@ -1,1 +1,89 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.box{
+  width: 100%;
+  overflow: none;
+}
+.heading{
+  text-align: center;
+  border: solid black;
+  width: 100px;
+  padding: 3px;
+  float: right;
+  margin-right: 8px;
+  margin-top: 0px;
+  position: relative;
+}
 
+.content{
+  border: 5px solid black;
+  width: 90%;
+  height: auto;
+  margin: 2.5%;
+  color: black;
+  padding: 2%;
+  padding-top: 55px;
+  background-color: darkgrey;
+}
+.heading1{
+  background-color: lightpink;
+}
+.heading2{
+  color: white;
+  background-color: darkred;
+}
+.heading3{
+  background-color: peachpuff;
+}
+@media (min-width: 992px) {
+  .div-lg-1 {
+    float: left;
+    width: 33.33%;
+  }
+  .div-lg-2 {
+    float: left;
+    width: 33.33%;
+  }
+  .div-lg-3 {
+    float: left;
+    width: 33.33%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .div-md-1 {
+    float: left;
+    width: 50%;
+  }
+  .div-md-2 {
+    float: left;
+    width: 48%;
+  }
+  .div-md-3 {
+    float: right;
+    width: 101%;
+  }
+  .heading3{
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .div-sm-1 {
+    float: right;
+    width: 100%;
+  }
+  .div-sm-2 {
+    float: right;
+    width: 100%;
+  }
+  .div-sm-3 {
+    float: right;
+    width: 100%;
+  }
+}
